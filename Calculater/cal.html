@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+   
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+	  
+      <title>JS Calculator</title>
+      <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+	  
+   </head>
+   
+   <body style="display: flex; height: 100vh;">
+   
+    <div style="margin:auto;">
+   
+      <h1 align="center">JS Calculator</h1>
+	  
+      <div id="myDiv">
+      
+         <div id="displayWindow">
+           
+            <div id="displayTop">0</div>
+            <div id="displayMain">0</div>
+		
+         </div>
+        
+         <div id="knopjes">
+		 
+            <button class="button" id="darkButton" onclick="clearDisplay()">C</button>
+            <button class="button" id="darkButton" onclick="setOperation('%')">%</button>
+            <button class="button" id="darkButton" onclick="setOperation('/')">/</button>
+			<button class="button" id="darkButton" onclick="setOperation('*')">*</button>
+            <br>
+            <button class="button" onclick="inputDigits(1)">1</button>
+            <button class="button" onclick="inputDigits(2)">2</button>
+            <button class="button" onclick="inputDigits(3)">3</button>
+            <button class="button" id="darkButton" onclick="setOperation('^')">^</button>
+            <br>
+            <button class="button" onclick="inputDigits(4)">4</button>
+            <button class="button" onclick="inputDigits(5)">5</button>
+            <button class="button" onclick="inputDigits(6)">6</button>
+            <button class="button" id="darkButton" onclick="setOperation('-')">-</button>
+            <br>
+            <button class="button" onclick="inputDigits(7)">7</button>
+            <button class="button" onclick="inputDigits(8)">8</button>
+            <button class="button" onclick="inputDigits(9)">9</button>
+			<button class="button" id="darkButton" onclick="setOperation('+')">+</button>
+            <br>
+			<button class="button" onclick="insertDecimal('.')">.</button>
+            <button class="button" onclick="inputDigits(0)">0</button>
+            <button class="largeButton" id="darkButton" onclick="calculateTotal()">=</button>
+            <br>
+			
+         </div>
+		
+      </div>
+	  
+    </div>
+   
+      <script src="script.js"></script>
+	  
+   </body>
+   
+</html>

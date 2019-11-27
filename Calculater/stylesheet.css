@@ -1,0 +1,83 @@
+body {
+	margin: 0px;
+}
+
+button:focus {
+	outline:0;
+}
+
+#myDiv {
+	margin: auto;
+	width: 330px;
+}
+
+#displayWindow {
+	position: relative;
+	border: 5px solid darkgrey;
+	width: 320px;
+	height: 60px;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+#displaytop {
+	position: absolute;
+	width: 320px;
+	margin-left: 10px;
+}
+
+#displayMain {
+	width: 27px;
+	font-size: 200%;
+	left: 10px;
+}
+
+#knopjes {
+	margin: 0px;
+}
+
+div {
+	font-family: arial;
+}
+
+.button {
+	background-color: #949B9B;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	width: 75px;
+	height: 50px;
+}
+
+.button:hover {
+	background-color: rgb(148, 155, 155);
+}
+
+.largeButton {
+	background-color: #949B9B;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	width: 158px;
+	height: 50px;
+}
+
+.largeButton:hover {
+	background-color: rgb(148, 155, 155);
+}
+
+#darkButton {
+	background-color: rgb(148, 155, 155);
+}
